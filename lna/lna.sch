@@ -251,10 +251,10 @@ Philips Semiconductors, SOT343R.pdf</description>
 <devices>
 <device name="" package="SOT343R">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="GND@1" pad="3"/>
-<connect gate="G$1" pin="RF-IN" pad="4"/>
-<connect gate="G$1" pin="RF-OUT" pad="2"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="GND@1" pad="4"/>
+<connect gate="G$1" pin="RF-IN" pad="3"/>
+<connect gate="G$1" pin="RF-OUT" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>

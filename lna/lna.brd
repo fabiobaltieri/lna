@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -1527,7 +1527,7 @@ OSH Park compatible</description>
 <element name="C3" library="rcl" package="C0603" value="4.7p" x="16.764" y="3.81"/>
 <element name="J$1" library="SparkFun-Connectors" package="SMA-EDGE" value="SMA_EDGE" x="2.4384" y="1.524" rot="R90"/>
 <element name="J$2" library="SparkFun-Connectors" package="SMA-EDGE" value="SMA_EDGE" x="20.574" y="1.524" rot="R90"/>
-<element name="U1" library="balto" package="SOT343R" value="PSA4-5043" x="13.9761625" y="3.1557625" rot="R270"/>
+<element name="U1" library="balto" package="SOT343R" value="PSA4-5043" x="13.455834375" y="3.0926375" rot="R315"/>
 <element name="L1" library="SparkFun-Passives" package="0603" value="200n" x="10.2108" y="4.1148" rot="R270"/>
 <element name="C4" library="rcl" package="C0603" value="10n" x="11.43" y="5.6388" rot="R270"/>
 <element name="C6" library="rcl" package="C0603" value="4.7p" x="8.2296" y="3.2004"/>
@@ -1554,8 +1554,8 @@ OSH Park compatible</description>
 <contactref element="U4" pad="2"/>
 <contactref element="C11" pad="2"/>
 <contactref element="C12" pad="2"/>
-<contactref element="U1" pad="1"/>
-<contactref element="U1" pad="3"/>
+<contactref element="U1" pad="2"/>
+<contactref element="U1" pad="4"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C7" pad="2"/>
 <contactref element="C9" pad="2"/>
@@ -1575,7 +1575,7 @@ OSH Park compatible</description>
 <via x="8.2296" y="4.2672" extent="1-16" drill="0.3302"/>
 <via x="9.144" y="4.2672" extent="1-16" drill="0.3302"/>
 <via x="11.2776" y="4.2672" extent="1-16" drill="0.3302"/>
-<via x="12.192" y="4.2672" extent="1-16" drill="0.3302"/>
+<via x="12.3444" y="4.2672" extent="1-16" drill="0.3302"/>
 <via x="5.1816" y="5.0292" extent="1-16" drill="0.3302"/>
 <via x="6.096" y="2.1336" extent="1-16" drill="0.3302"/>
 <via x="7.0104" y="2.1336" extent="1-16" drill="0.3302"/>
@@ -1584,8 +1584,8 @@ OSH Park compatible</description>
 <via x="9.7536" y="2.1336" extent="1-16" drill="0.3302"/>
 <via x="10.668" y="2.1336" extent="1-16" drill="0.3302"/>
 <via x="11.5824" y="2.1336" extent="1-16" drill="0.3302"/>
-<via x="14.0208" y="1.8288" extent="1-16" drill="0.3302"/>
-<via x="13.8684" y="4.4196" extent="1-16" drill="0.3302"/>
+<via x="14.7828" y="2.1336" extent="1-16" drill="0.3302"/>
+<via x="14.3256" y="4.4196" extent="1-16" drill="0.3302"/>
 <via x="15.6972" y="2.7432" extent="1-16" drill="0.3302"/>
 <via x="16.764" y="2.7432" extent="1-16" drill="0.3302"/>
 <via x="17.8308" y="2.7432" extent="1-16" drill="0.3302"/>
@@ -1608,8 +1608,8 @@ OSH Park compatible</description>
 <via x="15.6972" y="4.8768" extent="1-16" drill="0.3302"/>
 <wire x1="13.4112" y1="4.6736" x2="17.8308" y2="4.6736" width="0.3048" layer="1"/>
 <wire x1="17.8308" y1="4.6736" x2="18.1356" y2="4.9784" width="0.3048" layer="1"/>
-<via x="12.3444" y="1.524" extent="1-16" drill="0.3302"/>
-<via x="13.2588" y="1.524" extent="1-16" drill="0.3302"/>
+<via x="12.4968" y="1.6764" extent="1-16" drill="0.3302"/>
+<via x="14.0208" y="1.524" extent="1-16" drill="0.3302"/>
 <via x="18.288" y="5.334" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="VIN">
@@ -1665,20 +1665,19 @@ OSH Park compatible</description>
 </signal>
 <signal name="N$2">
 <contactref element="C3" pad="1"/>
-<contactref element="U1" pad="4"/>
-<wire x1="14.7761625" y1="3.8057625" x2="15.9097625" y2="3.8057625" width="1.016" layer="1"/>
+<contactref element="U1" pad="3"/>
 <wire x1="15.9097625" y1="3.8057625" x2="15.914" y2="3.81" width="1.016" layer="1"/>
+<wire x1="15.914" y1="3.81" x2="15.092434375" y2="3.81" width="0.8128" layer="1"/>
+<wire x1="15.092434375" y1="3.81" x2="14.4811375" y2="3.198703125" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="L1" pad="2"/>
 <contactref element="C6" pad="2"/>
 <wire x1="9.0796" y1="3.2004" x2="10.1464" y2="3.2004" width="1.016" layer="1"/>
 <wire x1="10.1464" y1="3.2004" x2="10.2108" y2="3.2648" width="1.016" layer="1"/>
-<contactref element="U1" pad="2"/>
-<wire x1="10.2108" y1="3.2648" x2="11.44915" y2="3.2648" width="0.9652" layer="1"/>
-<wire x1="11.44915" y1="3.2648" x2="12.347175" y2="2.892825" width="0.9652" layer="1" curve="-45"/>
-<wire x1="12.347175" y1="2.892825" x2="12.91949375" y2="2.6557625" width="0.9652" layer="1" curve="45"/>
-<wire x1="12.91949375" y1="2.6557625" x2="13.1761625" y2="2.6557625" width="0.9652" layer="1"/>
+<contactref element="U1" pad="1"/>
+<wire x1="10.2108" y1="3.2648" x2="12.152296875" y2="3.2648" width="0.8128" layer="1"/>
+<wire x1="12.152296875" y1="3.2648" x2="12.430528125" y2="2.98656875" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="C6" pad="1"/>
