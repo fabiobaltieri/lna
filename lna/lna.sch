@@ -4495,7 +4495,6 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <wire x1="177.8" y1="127" x2="114.3" y2="127" width="0.1524" layer="97"/>
 <wire x1="177.8" y1="81.28" x2="114.3" y2="81.28" width="0.1524" layer="97"/>
 <text x="116.84" y="119.38" size="5.08" layer="97">LDO</text>
-<text x="35.56" y="35.56" size="1.778" layer="91">c0g np0</text>
 <text x="7.62" y="109.22" size="1.778" layer="97">50Ohm Coplanar Waveguide:
 PCB: 1.6mm 4.2 Et
 Track: 1.33mm
