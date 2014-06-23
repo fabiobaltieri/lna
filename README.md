@@ -1,7 +1,7 @@
 LNA
 ===
 
-http://fabiobaltieri.com/2014/xx/xx/lna/
+http://fabiobaltieri.com/2014/06/22/lna/
 
 This project is an LNA board based on the PSA4-5043+.
 
