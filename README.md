@@ -14,7 +14,7 @@ License.
 Contents
 --------
 
-    README      this file
+    README this file
     lna/   source directory for the hardware design
 
 Hardware
