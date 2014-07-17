@@ -1535,7 +1535,7 @@ OSH Park compatible</description>
 <element name="C7" library="rcl" package="C0603" value="10n" x="7.62" y="5.6388" rot="R270"/>
 <element name="C9" library="rcl" package="C0603" value="1p" x="5.1816" y="2.4384" rot="R270"/>
 <element name="C10" library="rcl" package="C0603" value="1u" x="12.6492" y="5.6388" rot="R270"/>
-<element name="U4" library="SparkFun-PowerIC" package="SOT23-5" value="MCP5301" x="15.8496" y="6.2484" rot="R90"/>
+<element name="U4" library="SparkFun-PowerIC" package="SOT23-5" value="MIC5301" x="15.8496" y="6.2484" rot="R90"/>
 <element name="C11" library="rcl" package="C0603" value=".1u" x="16.4592" y="6.096" rot="MR180"/>
 <element name="C12" library="rcl" package="C0603" value="1u" x="8.8392" y="5.6388" rot="R270"/>
 <element name="U$1" library="cat" package="CAT-L" value="" x="16.764" y="1.3716"/>
